@@ -98,3 +98,9 @@ console.log("Exercise 6:" , userProfile)
 // The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
 
 // Your code here
+
+function sentance(noun = 'cat' , adjective = "white") {
+ console.log (`Exercise 8: The ${noun} is ${adjective}`)
+}
+
+sentance()
